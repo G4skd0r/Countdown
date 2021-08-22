@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+h2 {
+    font-size: 5rem;
+    font-weight: 800;
+    padding: 3rem;
+}
+
+.big-text {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.countdown {
+    display: flex;
+    width: 60rem;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.day,
+.hour,
+.minute,
+.second {
+    font-size: 7rem;
+}
+
+.pro-logo {
+    padding: 4rem;
+    height: 35vh;
+}
