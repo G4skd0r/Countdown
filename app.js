@@ -27,11 +27,6 @@ const countdown = () => {
     document.querySelector(".minute").innerText = textMinuteD;
     document.querySelector(".second").innerText = textSecondD;
 
-    // document.querySelector(".day").innerText = textDay;
-    // document.querySelector(".hour").innerText = textHour;
-    // document.querySelector(".minute").innerText = textMinute;
-    // document.querySelector(".second").innerText = textSecond;
-
 
 };
 
