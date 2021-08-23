@@ -15,8 +15,49 @@ body {
 h2 {
     font-size: 5rem;
     font-weight: 800;
-    padding: 3rem;
+    padding: 10px;
+    border-radius: 10px;
+    animation: backColorsTittle infinite 20s;
+    color: white;
 }
+
+.tittle{
+    background-color: white;
+    margin-bottom: 70px;
+}
+
+@keyframes backColorsTittle {
+    
+    0% {
+        background-color: #f8cc06;
+    }
+    3%{
+        background-color: #f4b215;
+    }
+    18.3%{
+        background-color: #ed7023;
+    }
+    32.6%{
+        background-color: #e52227;
+    }
+    47%{
+        background-color: #b61b85;
+    }
+    61.3%{
+        background-color: #4b4986;
+    }
+    75.6%{
+        background-color: #952580;
+    }
+    90%{
+        background-color: #33bdd9;
+    }
+    100%{
+        background-color: #f8cc06;
+    }
+
+}
+
 .big-text {
     min-height: 96vh;
     display: flex;
@@ -62,10 +103,7 @@ h2 {
     right: 0;
     height: 2vh;
     z-index: 2;
-
 }
-.colorline span{width:12.5%;height:100%;float:left}.c1{background-color:#f8cc06}.c2{background-color:#f4b215}.c3{background-color:#ed7023}.c4{background-color:#e52227}.c5{background-color:#b61b85}.c6{background-color:#952580}.c7{background-color:#4b4986}.c8{background-color:#33bdd9}
-
 .topline {
     position: relative;
     width: 100%;
@@ -75,5 +113,14 @@ h2 {
     height: 2vh;
     z-index: 2;
 }
+.colorline span{width:12.5%;height:100%;float:left}
+.topline span{width:12.5%;height:100%;float:left}
 
-.topline span{width:12.5%;height:100%;float:left}.c1{background-color:#f8cc06}.c2{background-color:#f4b215}.c3{background-color:#ed7023}.c4{background-color:#e52227}.c5{background-color:#b61b85}.c6{background-color:#952580}.c7{background-color:#4b4986}.c8{background-color:#33bdd9}
+.c1{background-color:#f8cc06}
+.c2{background-color:#f4b215}
+.c3{background-color:#ed7023}
+.c4{background-color:#e52227}
+.c5{background-color:#b61b85}
+.c6{background-color:#4b4986}
+.c7{background-color:#952580}
+.c8{background-color:#33bdd9}
